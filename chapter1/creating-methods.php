@@ -8,25 +8,19 @@ class Product
   public $price; #cents
 
   //creating a Method
-
-  public function priceAsCurrency()
+  // method Argument
+  // Default value
+  public function priceAsCurrency($currencySymbol = '$')
   {
     $priceAsCurrency = $this->price / 100;
-    return $priceAsCurrency;
+    return $currencySymbol . $priceAsCurrency;
   }
 }
 
 $soapObject1 = new Product();
+
 $soapObject1->price = 600;
+
 $priceAsCurrency = $soapObject1->priceAsCurrency();
 
-$soapObject2 = new Product();
-$soapObject2->price = 550;
-
-$priceAsCurrency1 = $soapObject1->priceAsCurrency();
-$priceAsCurrency2 = $soapObject2->priceAsCurrency();
-
-
-
-var_dump($priceAsCurrency1) . PHP_EOL;
-var_dump($priceAsCurrency2) . PHP_EOL;
+var_dump($priceAsCurrency) . PHP_EOL;
