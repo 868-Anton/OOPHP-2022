@@ -10,10 +10,10 @@ class Product
 
 //instantiating a class 
 //this is called an object
-$productObject = new Product();
-$productObject2 = new Product();
+$productObject = new Product;//note the parentheses is only important if we are passing an argument
+$productObject2 = new Product;
 
-$soapObject = new Product();
+$soapObject = new Product;
 
 //Using the object operator to access a public property 
 print $soapObject->name . "\n";

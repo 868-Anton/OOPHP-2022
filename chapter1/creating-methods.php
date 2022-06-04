@@ -17,7 +17,7 @@ class Product
   }
 }
 
-$soapObject1 = new Product();
+$soapObject1 = new Product; //note the parentheses is only important if we are passing an argument
 
 $soapObject1->price = 600;
 
