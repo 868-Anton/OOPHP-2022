@@ -11,6 +11,6 @@ class Playlist
 
   public function getLength():int //return type declarations 
   {
-  return count($this->songs);
+  return count($this->songs); //this returns an int
   }
 }
