@@ -4,7 +4,7 @@ class Playlist
 {
   public $songs = [];
 
-  public function addSong(Song $song) //we must have a song OBJ
+  public function addSong(Song $song):void //we must have a song OBJ
   {
     $this->songs[] =$song; // This is interesting  
   }
