@@ -12,3 +12,5 @@
 [Type-hinting part 1](https://www.notion.so/Type-hinting-part-1-28305457d43c47e9952a360598e87f84)
 
 [Class type declarations ](https://www.notion.so/Class-type-declarations-ac2321935dc04f1a8241905e44d259b1)
+
+[return type declarations](https://www.notion.so/Return-Type-Declarations-482ad2d23d7a4c8aaa3cc3df610d4353)
